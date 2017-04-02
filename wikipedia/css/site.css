@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");   
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");   
+
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+@font-face {
+    font-family: matrix;
+    src: url(../matrix.ttf);
+}
+
+h1{
+    color: #42C920;
+    font-family: VT323;
+}
+
+h2{
+    font-family: VT323;
+    color: white;
+
+}
+
+p{
+    font-family: 'Open Sans';
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+a{
+    color: #42C920;
+    font-family: VT323;
+    font-size: 18px;
+}
+
+a:hover, a:visited, a:link, a:focus{
+    text-decoration: none;
+}
+
+.matrixFonte{
+    font-family: matrix;
+}
+
+.matrix input{
+    margin: auto;
+    width: 50%;
+    color:#42C920;
+    background: transparent;
+    border-color: #42C920;
+    
+}
+
+.matrix{
+    margin: 5% 5% 10% 5%;
+}
+
+
+.matrix input:focus{
+    font-family: VT323;
+    border-color: #42C920 !important;
+
+}
+
+.matrix ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #235021;
+    font-family: VT323;
+}
+.matrix :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #235021;
+   font-family: VT323;
+   opacity:  1;
+}
+.matrix ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #235021;
+    font-family: VT323;
+    opacity:  1;
+}
+.matrix :-ms-input-placeholder { /* Internet Explorer 10-11 */  
+    color:    #235021;
+    font-family: VT323;
+}
+.matrix input-placeholder { 
+    font-family: VT323;
+    color:    #235021;
+}
+
+.error{
+    color: red;
+}
+
+#list-search{
+    margin: auto;
+    width: 70%;
+    padding: 5%;
+    margin-top: 2%;
+    background: #3498db;
+    border-radius: 30px;
+    
+}
+#list-search:hover{
+    background: #e74c3c;
+    
+}
+
